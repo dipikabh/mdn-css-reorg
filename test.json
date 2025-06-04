@@ -1,0 +1,21 @@
+{
+  "files/en-us/web/css": {
+    "reference": {
+      "properties": {
+        "animation": {
+          "longhand1": {},
+          "longhand2": {}
+        },
+        "align-content": {},
+        "align-items": {},
+        "animation-timeline": {
+          "scroll": {},
+          "view": {}
+        }
+      },
+      "selectors": {},
+      "combinators": {}
+    },
+    "guides": {}
+  }
+}
