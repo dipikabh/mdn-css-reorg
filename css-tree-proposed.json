@@ -889,142 +889,102 @@
           "layer_function": {}
         }
       },
-      "modules": {
-        "anchor_positioning": {},
-        "animations": {},
-        "backgrounds_and_borders": {},
-        "basic_user_interface": {},
-        "box_alignment": {},
-        "box_model": {},
-        "box_sizing": {},
-        "cascade": {},
-        "color_adjustment": {},
-        "colors": {},
-        "compositing_and_blending": {},
-        "conditional_rules": {},
-        "containment": {},
-        "counter_styles": {},
-        "display": {},
-        "filter_effects": {},
-        "flexible_box_layout": {},
-        "font_loading": {},
-        "fonts": {},
-        "fragmentation": {},
-        "generated_content": {},
-        "grid_layout": {},
-        "images": {},
-        "inline_layout": {},
-        "lists": {},
-        "logical_properties_and_values": {},
-        "masking": {},
-        "media_queries": {},
-        "motion_path": {},
-        "multicol_layout": {},
-        "namespaces": {},
-        "nesting": {},
-        "overflow": {},
-        "overscroll_behavior": {},
-        "paged_media": {},
-        "positioned_layout": {},
-        "properties_and_values_api": {},
-        "pseudo-elements": {},
-        "ruby_layout": {},
-        "scoping": {},
-        "scroll-driven_animations": {},
-        "scroll_anchoring": {},
-        "scroll_snap": {},
-        "scrollbars_styling": {},
-        "selectors": {},
-        "shadow_parts": {},
-        "shapes": {},
-        "syntax": {},
-        "table": {},
-        "text": {},
-        "text_decoration": {},
-        "transforms": {},
-        "transitions": {},
-        "values_and_units": {},
-        "view_transitions": {},
-        "writing_modes": {},
-        "cssom_view": {}
-      },
       "vendor_prefixed": {
-        "-moz-float-edge": {},
-        "-moz-force-broken-image-icon": {},
-        "-moz-image-rect": {},
-        "-moz-image-region": {},
-        "-moz-orient": {},
-        "-moz-user-focus": {},
-        "-moz-user-input": {},
-        "-moz-device-pixel-ratio": {},
-        "_colon_-moz-broken": {},
-        "_colon_-moz-drag-over": {},
-        "_colon_-moz-first-node": {},
-        "_colon_-moz-handler-blocked": {},
-        "_colon_-moz-handler-crashed": {},
-        "_colon_-moz-handler-disabled": {},
-        "_colon_-moz-last-node": {},
-        "_colon_-moz-loading": {},
-        "_colon_-moz-locale-dir_ltr": {},
-        "_colon_-moz-locale-dir_rtl": {},
-        "_colon_-moz-only-whitespace": {},
-        "_colon_-moz-submit-invalid": {},
-        "_colon_-moz-suppressed": {},
-        "_colon_-moz-user-disabled": {},
-        "_colon_-moz-window-inactive": {},
-        "_doublecolon_-moz-color-swatch": {},
-        "_doublecolon_-moz-focus-inner": {},
-        "_doublecolon_-moz-list-bullet": {},
-        "_doublecolon_-moz-list-number": {},
-        "_doublecolon_-moz-meter-bar": {},
-        "_doublecolon_-moz-progress-bar": {},
-        "_doublecolon_-moz-range-progress": {},
-        "_doublecolon_-moz-range-thumb": {},
-        "_doublecolon_-moz-range-track": {},
-        "_doublecolon_-moz-selection": {},
-        "-webkit-border-before": {},
-        "-webkit-box-reflect": {},
-        "-webkit-mask-box-image": {},
-        "-webkit-mask-composite": {},
-        "-webkit-mask-position-x": {},
-        "-webkit-mask-position-y": {},
-        "-webkit-mask-repeat-x": {},
-        "-webkit-mask-repeat-y": {},
-        "-webkit-tap-highlight-color": {},
-        "-webkit-text-fill-color": {},
-        "-webkit-text-security": {},
-        "-webkit-text-stroke": {},
-        "-webkit-text-stroke-color": {},
-        "-webkit-text-stroke-width": {},
-        "-webkit-touch-callout": {},
-        "-webkit-animation": {},
-        "-webkit-device-pixel-ratio": {},
-        "-webkit-transform-2d": {},
-        "-webkit-transform-3d": {},
-        "-webkit-transition": {},
-        "-webkit-user-drag": {},
-        "_doublecolon_-webkit-inner-spin-button": {},
-        "_doublecolon_-webkit-meter-bar": {},
-        "_doublecolon_-webkit-meter-even-less-good-value": {},
-        "_doublecolon_-webkit-meter-inner-element": {},
-        "_doublecolon_-webkit-meter-optimum-value": {},
-        "_doublecolon_-webkit-meter-suboptimum-value": {},
-        "_doublecolon_-webkit-progress-bar": {},
-        "_doublecolon_-webkit-progress-inner-element": {},
-        "_doublecolon_-webkit-progress-value": {},
-        "_doublecolon_-webkit-scrollbar": {},
-        "_doublecolon_-webkit-search-cancel-button": {},
-        "_doublecolon_-webkit-search-results-button": {},
-        "_doublecolon_-webkit-slider-runnable-track": {},
-        "_doublecolon_-webkit-slider-thumb": {},
-        "_doublecolon_-webkit-slider-thumb-inner": {}
-      }
-    },
+        "properties": {
+          "-moz-float-edge": {},
+          "-moz-force-broken-image-icon": {},
+          "-moz-image-rect": {},
+          "-moz-image-region": {},
+          "-moz-orient": {},
+          "-moz-user-focus": {},
+          "-moz-user-input": {},
+          "-moz-device-pixel-ratio": {},
+          "-webkit-border-before": {},
+          "-webkit-box-reflect": {},
+          "-webkit-mask-box-image": {},
+          "-webkit-mask-composite": {},
+          "-webkit-mask-position-x": {},
+          "-webkit-mask-position-y": {},
+          "-webkit-mask-repeat-x": {},
+          "-webkit-mask-repeat-y": {},
+          "-webkit-tap-highlight-color": {},
+          "-webkit-text-fill-color": {},
+          "-webkit-text-security": {},
+          "-webkit-text-stroke": {},
+          "-webkit-text-stroke-color": {},
+          "-webkit-text-stroke-width": {},
+          "-webkit-touch-callout": {},
+          "-webkit-animation": {},
+          "-webkit-device-pixel-ratio": {},
+          "-webkit-transform-2d": {},
+          "-webkit-transform-3d": {},
+          "-webkit-transition": {},
+          "-webkit-user-drag": {}
+        },
+        "pseudo_classes": {
+          "_colon_-moz-broken": {},
+          "_colon_-moz-drag-over": {},
+          "_colon_-moz-first-node": {},
+          "_colon_-moz-handler-blocked": {},
+          "_colon_-moz-handler-crashed": {},
+          "_colon_-moz-handler-disabled": {},
+          "_colon_-moz-last-node": {},
+          "_colon_-moz-loading": {},
+          "_colon_-moz-locale-dir_ltr": {},
+          "_colon_-moz-locale-dir_rtl": {},
+          "_colon_-moz-only-whitespace": {},
+          "_colon_-moz-submit-invalid": {},
+          "_colon_-moz-suppressed": {},
+          "_colon_-moz-user-disabled": {},
+          "_colon_-moz-window-inactive": {}
+        },
+        "pseudo_elements": {
+          "_doublecolon_-moz-color-swatch": {},
+          "_doublecolon_-moz-focus-inner": {},
+          "_doublecolon_-moz-list-bullet": {},
+          "_doublecolon_-moz-list-number": {},
+          "_doublecolon_-moz-meter-bar": {},
+          "_doublecolon_-moz-progress-bar": {},
+          "_doublecolon_-moz-range-progress": {},
+          "_doublecolon_-moz-range-thumb": {},
+          "_doublecolon_-moz-range-track": {},
+          "_doublecolon_-moz-selection": {},
+          "_doublecolon_-webkit-inner-spin-button": {},
+          "_doublecolon_-webkit-meter-bar": {},
+          "_doublecolon_-webkit-meter-even-less-good-value": {},
+          "_doublecolon_-webkit-meter-inner-element": {},
+          "_doublecolon_-webkit-meter-optimum-value": {},
+          "_doublecolon_-webkit-meter-suboptimum-value": {},
+          "_doublecolon_-webkit-progress-bar": {},
+          "_doublecolon_-webkit-progress-inner-element": {},
+          "_doublecolon_-webkit-progress-value": {},
+          "_doublecolon_-webkit-scrollbar": {},
+          "_doublecolon_-webkit-search-cancel-button": {},
+          "_doublecolon_-webkit-search-results-button": {},
+          "_doublecolon_-webkit-slider-runnable-track": {},
+          "_doublecolon_-webkit-slider-thumb": {},
+          "_doublecolon_-webkit-slider-thumb-inner": {}
+        }
+      },
     "guides": {
       "anchor_positioning": {
         "try_options_hiding": {},
         "using": {}
         },
+      "animations": {
+        "animatable_properties": {},
+        "using": {}
+      },
+      "backgrounds_and_borders": {
+        "border-image_generator": {},
+        "border-radius_generator": {},
+        "box-shadow_generator": {},
+        "resizing_background_images": {},
+        "scaling_svg_backgrounds": {},
+        "using_multiple_backgrounds": {}
+      },
+      "basic_user_interface": {},
+      "borders_and_box_decorations": {},
       "box_alignment": {
         "overview": {},
         "in_block_abspos_tables": {},
@@ -1036,23 +996,8 @@
         "introduction": {},
         "margin_collapsing": {}
       },
-      "cascading_variables": {
-        "custom_properties": {}
-      },
-      "animations": {
-        "animatable_properties": {},
-        "using": {}
-      },
-      "backgrounds_and_borders": {
-        "border-image_generator": {},
-        "border-radius_generator": {},
-        "box-shadow_generator": {},
-        "resizing": {},
-        "scaling_svg_backgrounds": {},
-        "using_multiple_backgrounds": {}
-      },
       "box_sizing": {
-        "aspect-ratio": {}
+        "understanding_aspect-ratio": {}
       },
       "cascade": {
         "introduction": {},
@@ -1061,60 +1006,77 @@
         "specificity": {},
         "value_processing": {}
       },
-      "colors": {
-        "values": {},
-        "relative_colors": {},
-        "applying": {},
-        "using_wisely": {},
-        "color_picker_tool": {}
+      "cascading_variables": {
+        "using_custom_properties": {}
       },
+      "colors": {
+        "applying_color": {},
+        "color_format_converter": {},
+        "color_mixer": {},
+        "color_values": {},
+        "using_relative_colors": {},
+        "using_color_wisely": {}
+      },
+      "color_adjustment": {},
+      "compositing_and_blending": {},
       "conditional_rules": {
-        "scroll-state_queries": {},
-        "feature_queries": {}
+        "container_scroll-state_queries": {},
+        "using_feature_queries": {}
       },
       "containment": {
         "container_queries": {},
         "container_size_and_style_queries": {},
         "using": {}
       },
+      "counter_styles": {
+        "using_counters": {}
+      },
+      "custom_highlight_API": {},
       "display": {
         "block_and_inline_layout_in_normal_flow": {},
-        "in_flow_and_out_of_flow": {},
-        "formatting_contexts": {},
-        "flow_layout_and_writing_modes": {},
-        "flow_layout_and_overflow": {},
-        "multi-keyword_syntax": {},
         "block_formatting_context": {},
         "containing_block": {},
         "flow_layout": {},
+        "flow_layout_and_overflow": {},
+        "flow_layout_and_writing_modes": {},
+        "in_flow_and_out_of_flow": {},
+        "formatting_contexts": {},
+        "multi-keyword_syntax": {},
         "visual_formatting_model": {}
       },
+      "easing_functions": {},
+      "environment_variables": {
+        "using": {}
+      },
       "filter_effects": {
-        "using_filter_effects": {}
+        "using": {}
       },
       "flexible_box_layout": {
         "basic_concepts": {},
         "aligning_items": {},
         "controlling_ratios_along_main_axis": {},
-        "wrapping_items": {},
-        "ordering_items": {},
+        "wrapping_flex_items": {},
+        "ordering_flex_items": {},
         "relationship_with_other_layout_methods": {},
         "typical_use_cases": {}
       },
+      "font_loading": {},
       "fonts": {
-        "opentype_fonts_guide": {},
-        "variable_fonts_guide": {},
+        "opentype_fonts": {},
+        "variable_fonts": {},
         "woff": {}
       },
+      "fragmentation": {},
+      "generated_content": {},
       "grid_layout": {
         "auto-placement": {},
         "basic_concepts": {},
         "box_alignment": {},
         "accessibility": {},
         "line-based_placement": {},
-        "named_grid_lines": {},
+        "using_named_grid_lines": {},
         "grid_template_areas": {},
-        "logical_values_and_writing_modes": {},
+        "grid_logical_values_and_writing_modes": {},
         "masonry_layout": {},
         "common_layouts": {},
         "relationship_with_other_layout_methods": {},
@@ -1123,14 +1085,13 @@
       "images": {
         "implementing_image_sprites": {},
         "replaced_element_properties": {},
-        "gradients": {}
+        "using_css_gradients": {}
       },
       "inline_layout": {
         "inline_formatting_context": {}
       },
-      "lists_and_counters": {
-        "indenting_lists": {},
-        "using_counters": {}
+      "lists": {
+        "consistent_list_indentation": {}
       },
       "logical_properties_and_values": {
         "basic_concepts": {},
@@ -1138,12 +1099,19 @@
         "margins_borders_padding": {},
         "sizing": {}
       },
+      "masking": {
+        "clipping": {},
+        "mask_properties": {},
+        "masking": {},
+        "multiple_masks": {}
+      },
       "media_queries": {
         "printing": {},
         "testing": {},
         "using": {},
         "accessibility": {}
       },
+      "motion_path": {},
       "multicol_layout": {
         "basic_concepts": {},
         "handling_content_breaks": {},
@@ -1152,14 +1120,17 @@
         "styling_columns": {},
         "using": {}
       },
+      "namespaces": {},
       "nesting": {
-        "specificity": {},
+        "nesting_and_specificity": {},
         "at-rules": {},
         "using": {}
       },
       "overflow": {
         "css_carousels": {}
       },
+      "overscroll_behavior": {},
+      "paged_media": {},
       "positioned_layout": {
         "stacking_context": {
           "example_1": {},
@@ -1174,32 +1145,47 @@
       "properties_and_values_api": {
         "houdini": {}
       },
+      "pseudo-elements": {},
+      "round_display": {},
+      "ruby_layout": {},
+      "scoping": {},
+      "scroll-driven_animations": {},
       "scroll_anchoring": {
-        "scroll_anchoring": {}
+        "overview": {}
       },
       "scroll_snap": {
         "basic_concepts": {},
-        "scroll_snap_events": {}
+        "using_scroll_snap_events": {}
       },
+      "scrollbars_styling": {},
       "selectors": {
         "privacy_and_the_visited_selector": {},
         "selector_structure": {},
         "selectors_and_combinators": {},
         "using_the__colon_target_pseudo-class_in_selectors": {}
       },
+      "shadow_parts": {},
       "shapes": {
         "basic_shapes": {},
         "from_box_values": {},
         "overview": {},
-        "from_images": {}
+        "from_images": {},
+        "shape_generator": {}
       },
       "syntax": {
+        "at-rules": {},
+        "at-rules_functions": {},
         "comments": {},
         "error_handling": {},
-        "syntax": {}
+        "introduction": {}
       },
+      "table": {},
       "text": {
+        "whitespace": {},
         "wrapping_breaking_text": {}
+      },
+      "text_decoration": {
+        "text_shadows": {}
       },
       "transforms": {
         "using": {}
@@ -1208,16 +1194,20 @@
         "using": {}
       },
       "values_and_units": {
+        "data_types": {},
+        "value_functions": {},
         "numeric_data_types": {},
         "textual_data_types": {},
-        "math_functions": {},
+        "using_math_functions": {},
+        "using_typed_arithmetic": {},
         "value_definition_syntax": {}
       },
+      "view_transitions": {},
+      "viewport": {},
       "writing_modes": {
         "vertical_controls": {}
       },
       "cssom_view": {
-        "coordinate_systems": {},
         "viewport_concepts": {}
       }
     },
