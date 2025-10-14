@@ -649,6 +649,7 @@
           "color-mix": {},
           "conic-gradient": {},
           "contrast-color": {},
+          "contrast": {},
           "cos": {},
           "counter": {},
           "counters": {},
@@ -874,6 +875,7 @@
           "forced-colors": {},
           "grid": {},
           "height": {},
+          "horizontal-viewport-segments": {},
           "hover": {},
           "inverted-colors": {},
           "monochrome": {},
@@ -891,6 +893,7 @@
           "scripting": {},
           "shape": {},
           "update": {},
+          "vertical-viewport-segments": {},
           "video-dynamic-range": {},
           "width": {}
         },
