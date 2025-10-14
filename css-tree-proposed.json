@@ -902,7 +902,6 @@
           "-moz-orient": {},
           "-moz-user-focus": {},
           "-moz-user-input": {},
-          "-moz-device-pixel-ratio": {},
           "-webkit-border-before": {},
           "-webkit-box-reflect": {},
           "-webkit-mask-box-image": {},
@@ -918,11 +917,6 @@
           "-webkit-text-stroke-color": {},
           "-webkit-text-stroke-width": {},
           "-webkit-touch-callout": {},
-          "-webkit-animation": {},
-          "-webkit-device-pixel-ratio": {},
-          "-webkit-transform-2d": {},
-          "-webkit-transform-3d": {},
-          "-webkit-transition": {},
           "-webkit-user-drag": {}
         },
         "pseudo_classes": {
@@ -969,10 +963,19 @@
           "_doublecolon_-webkit-slider-thumb": {},
           "_doublecolon_-webkit-slider-thumb-inner": {}
         },
+        "media_at-rules": {
+          "-moz-device-pixel-ratio": {},
+          "-webkit-animation": {},
+          "-webkit-device-pixel-ratio": {},
+          "-webkit-transform-2d": {},
+          "-webkit-transform-3d": {},
+          "-webkit-transition": {}
+        },
         "functions": {
           "-moz-image-rect": {}
         }
-      },
+      }
+    },
     "guides": {
       "anchor_positioning": {
         "try_options_hiding": {},
