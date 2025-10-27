@@ -16,7 +16,7 @@ To view the folder structure as a JSON tree:
 
 This is a snapshot of the proposed structure (from JSONcrack):
 
-<img width="348" alt="Screenshot from jsoncrack editor" src="https://github.com/user-attachments/assets/42d40993-fd52-4605-aae0-14d191f664db" />
+<img width="348" alt="Screenshot from jsoncrack editor" src="https://github.com/user-attachments/assets/77c813b7-2d74-48af-8618-66bc5127f23c" />
 
 ---
 #### How the JSON data was generated
