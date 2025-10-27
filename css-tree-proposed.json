@@ -1,8 +1,6 @@
 {
   "files/en-us/web/css": {
     "reference": {
-      "mozilla_extensions": {},
-      "webkit_extensions": {},
       "properties": {
         "--_star_": {},
         "-moz-float-edge": {},
@@ -992,7 +990,9 @@
         "@starting-style": {},
         "@supports": {},
         "@view-transition": {}
-      }
+      },
+      "mozilla_extensions": {},
+      "webkit_extensions": {}
     },
     "guides": {
       "anchor_positioning": {
@@ -1256,8 +1256,6 @@
         "sticky_footers": {}
       }
     },
-    "tutorials": {
-      "landing page": {}
-    }
+    "tutorials": {}
   }
 }
