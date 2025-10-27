@@ -17,26 +17,3 @@ To view the folder structure as a JSON tree:
 This is a snapshot of the proposed structure (from JSONcrack):
 
 <img width="348" alt="Screenshot from jsoncrack editor" src="https://github.com/user-attachments/assets/77c813b7-2d74-48af-8618-66bc5127f23c" />
-
----
-#### How the JSON data was generated
-
-To build a JSON tree of `files/en-us/web/css`, run this in the MDN repo root:
-
-```bash
-tree -L 3 -d -J files/en-us/web/css \
-  | jq '
-    def from_entries_recursive:
-      map(select(.name != null))
-      | map({
-        key: .name,
-        value: (if (.contents and (.contents | length > 0))
-                then (.contents | from_entries_recursive)
-                else {}
-                end)
-        })
-      | from_entries;
-    . | from_entries_recursive
-  ' \
-| pbcopy
-```
